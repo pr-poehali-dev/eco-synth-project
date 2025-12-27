@@ -78,10 +78,11 @@ const Index = () => {
       <header className="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-border">
         <nav className="container mx-auto px-4 py-4 flex items-center justify-between">
           <div className="flex items-center gap-2">
-            <div className="w-10 h-10 rounded-full bg-primary flex items-center justify-center">
-              <Icon name="Leaf" className="text-primary-foreground" size={24} />
-            </div>
-            <span className="text-2xl font-montserrat font-bold text-foreground">EcoSynth</span>
+            <img 
+              src="https://cdn.poehali.dev/files/logoza.ru.png" 
+              alt="Столовая №7" 
+              className="h-12 md:h-14"
+            />
           </div>
           <div className="hidden md:flex gap-8">
             <a href="#services" className="text-foreground hover:text-primary transition-colors">Решения</a>
@@ -344,11 +345,12 @@ const Index = () => {
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-4 gap-8 mb-8">
             <div>
-              <div className="flex items-center gap-2 mb-4">
-                <div className="w-10 h-10 rounded-full bg-primary flex items-center justify-center">
-                  <Icon name="Leaf" className="text-primary-foreground" size={24} />
-                </div>
-                <span className="text-2xl font-montserrat font-bold">EcoSynth</span>
+              <div className="mb-4">
+                <img 
+                  src="https://cdn.poehali.dev/files/logoza.ru.png" 
+                  alt="Столовая №7" 
+                  className="h-12 brightness-0 invert"
+                />
               </div>
               <p className="text-white/70">Создаём зелёное будущее для городов</p>
             </div>
