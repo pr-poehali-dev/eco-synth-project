@@ -79,9 +79,9 @@ const Index = () => {
         <nav className="container mx-auto px-4 py-4 flex items-center justify-between">
           <div className="flex items-center gap-2">
             <img 
-              src="https://cdn.poehali.dev/files/logoza.ru (2).png" 
+              src="https://cdn.poehali.dev/files/Снимок экрана 2025-12-31 002528.png" 
               alt="EcoSynth" 
-              className="h-12 md:h-14"
+              className="h-10 md:h-12"
             />
           </div>
           <div className="hidden md:flex gap-8">
@@ -347,9 +347,9 @@ const Index = () => {
             <div>
               <div className="mb-4">
                 <img 
-                  src="https://cdn.poehali.dev/files/logoza.ru (2).png" 
+                  src="https://cdn.poehali.dev/files/Снимок экрана 2025-12-31 002528.png" 
                   alt="EcoSynth" 
-                  className="h-12 brightness-0 invert"
+                  className="h-10 brightness-0 invert"
                 />
               </div>
               <p className="text-white/70">Создаём зелёное будущее для городов</p>
